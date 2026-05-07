@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Joyupx SSG Project",
   description: "This is my first Joyupx SSG project.",
+  base: '/VitePress/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
