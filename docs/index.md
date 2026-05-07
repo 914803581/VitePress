@@ -3,11 +3,14 @@
 layout: home
 
 hero:
-  name: "Joyupx SSG Project"
-  text: "This is my first Joyupx SSG project."
-  tagline: My great project tagline
+  name: "乐上技术交流分享"
+  text: "开发、测试、运维"
+  tagline: Java、JavaScript、TypeScript、NodeJS、MySQL
   actions:
     - theme: brand
+      text: 常用下载链接🔗
+      link: /常用软件下载链接
+    - theme: alt
       text: Markdown Examples
       link: /markdown-examples
     - theme: alt
@@ -15,11 +18,11 @@ hero:
       link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 开发 develop
+    details: 功能开发、性能优化。
+  - title: 测试 test
+    details: 功能测试、性能测试、集成测试、用户测试。
+  - title: 运维 option
+    details: 线上系统日常维护。
 ---
 
