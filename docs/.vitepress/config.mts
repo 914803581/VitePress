@@ -12,23 +12,25 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '技术', link: '/markdown-examples' }
+      { text: '技术', link: '/常用软件下载链接' }
     ],
 
     sidebar: [
       {
         text: '标题',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' },
+          //{ text: 'Markdown Examples', link: '/markdown-examples' },
+          //{ text: 'Runtime API Examples', link: '/api-examples' },
           { text: '常用软件下载链接🔗', link: '/常用软件下载链接' },
           { text: 'SSR、CSR、SPA、SSG', link: '/SSR' }
         ]
       }
     ],
 
+	/*
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
+	*/
   }
 })

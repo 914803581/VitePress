@@ -11,11 +11,8 @@ hero:
       text: 常用下载链接🔗
       link: /常用软件下载链接
     - theme: alt
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: SSR、CSR、SPA、SSG
+      link: /SSR
 
 features:
   - title: 开发 develop
