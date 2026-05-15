@@ -21,8 +21,9 @@ export default defineConfig({
         items: [
           //{ text: 'Markdown Examples', link: '/markdown-examples' },
           //{ text: 'Runtime API Examples', link: '/api-examples' },
-          { text: '常用软件下载链接🔗', link: '/常用软件下载链接' },
-          { text: 'SSR、CSR、SPA、SSG', link: '/SSR' }
+          { text: '常用软件下载链接🔗', link: '/common-links' },
+          { text: 'SSR、CSR、SPA、SSG', link: '/SSR' },
+          { text: 'Maven settings 配置', link: '/maven-settings' }
         ]
       }
     ],

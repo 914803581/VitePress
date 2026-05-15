@@ -9,10 +9,13 @@ hero:
   actions:
     - theme: brand
       text: 常用下载链接🔗
-      link: /常用软件下载链接
+      link: /common-links
     - theme: alt
       text: SSR、CSR、SPA、SSG
       link: /SSR
+    - theme: alt
+      text: Maven settings 配置
+      link: /maven-settings
 
 features:
   - title: 开发 develop
