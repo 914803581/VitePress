@@ -26,6 +26,7 @@ export default defineConfig({
           { text: 'Maven settings 配置', link: '/maven-settings' },
           { text: 'Windows 11 环境中 MySQL-8.4.9-x64-LTS 配置文件', link: '/MySQL-8.4.9-x64-LTS-my-ini' },
           { text: 'Windows 11 环境中 ElasticSearch-9.4.1 配置文件', link: '/ElasticSearch-9.4.1-yml' },
+          { text: '对 markdown 语言的浅显理解', link: '/markdown' },
         ]
       }
     ],

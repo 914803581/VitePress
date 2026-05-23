@@ -1,6 +1,7 @@
 # Windows 11 之 MySQL-8.4.9-x64-LTS 版配置文件 my.ini
 
 <br /><br />
+```ini
   
 ########## MySQL-8.4.9-x64-LTS 版配置开始 ##########
 
