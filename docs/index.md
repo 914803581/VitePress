@@ -16,6 +16,12 @@ hero:
     - theme: alt
       text: Maven settings 配置
       link: /maven-settings
+    - theme: alt
+      text: MySQL-8.4.9-x64-LTS 版配置
+      link: /MySQL-8.4.9-x64-LTS-my-ini
+    - theme: alt
+      text: ElasticSearch-9.4.1 版配置
+      link: /ElasticSearch-9.4.1-yml
 
 features:
   - title: 开发 develop
