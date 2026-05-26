@@ -11,17 +11,14 @@ hero:
       text: 常用下载链接🔗
       link: /common-links
     - theme: alt
-      text: SSR、CSR、SPA、SSG
-      link: /SSR
-    - theme: alt
       text: Maven settings 配置
-      link: /maven-settings
+      link: /maven/maven-settings
     - theme: alt
       text: MySQL-8.4.9-x64-LTS 版配置
-      link: /MySQL-8.4.9-x64-LTS-my-ini
+      link: /mysql/MySQL-8.4.9-x64-LTS-my-ini
     - theme: alt
       text: ElasticSearch-9.4.1 版配置
-      link: /ElasticSearch-9.4.1-yml
+      link: /elasticsearch/ElasticSearch-9.4.1-yml
 
 features:
   - title: 开发 develop
