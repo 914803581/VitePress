@@ -10,20 +10,23 @@ export default defineConfig({
   base: '/',	// 虽然代码在 VitePress 仓库中，但是使用了域名，所以部署后就是根目录了。
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    // 导航
     nav: [
       { text: '首页', link: '/' },
-      { text: '技术', link: '/常用软件下载链接' }
+      { text: '技术', link: '/common-links' }
     ],
 
+    // 侧边栏
     sidebar: [
       {
-        text: 'MySQL',
+        text: '综合',
         items: [
           //{ text: 'Markdown Examples', link: '/markdown-examples' },
           //{ text: 'Runtime API Examples', link: '/api-examples' },
           { text: '常用软件下载链接🔗', link: '/common-links' },
           { text: 'SSR、CSR、SPA、SSG', link: '/SSR' },
           { text: '对 markdown 语言的浅显理解', link: '/markdown' },
+          { text: 'nginx 配置', link: '/nginx-1.28.0.conf' },
         ]
       }
       , {
@@ -49,6 +52,13 @@ export default defineConfig({
       }
     ],
 
+    // 搜索🔍
+    search: {
+      // 本地搜索🔍，是基于浏览器的搜索🔍。
+      provider: 'local'
+    }
+
+    // 社会化链接🔗
 	/*
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
