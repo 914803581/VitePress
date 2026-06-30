@@ -1,22 +1,27 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from "vitepress"
+import type { DefaultTheme } from "vitepress"
+import fxConfig from "@fuxishi/vitepress-theme/config"
+import type { FxThemeCustomConfig } from "@fuxishi/vitepress-theme"
 
-// https://vitepress.dev/reference/site-config
-export default defineConfig({
-  // title: "Joyupx SSG Project",
+type ThemeConfig = DefaultTheme.Config & FxThemeCustomConfig
+
+export default defineConfig<ThemeConfig>({
+  extends: fxConfig,
+  lang: "zh-CN",
   title: "乐上⬆️",
-  // description: "This is my first Joyupx SSG project.",
   description: "技术分享、Java、JavaScript、NodeJS、TypeScript、AI、Redis、Spring、ElasticSearch、nginx、Maven",
-  // base: '/VitePress/',
-  base: '/',	// 虽然代码在 VitePress 仓库中，但是使用了域名，所以部署后就是根目录了。
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
-    // 导航
+    // 在这里添加你的导航、侧边栏等配置
+    // nav: [{ text: "指南", link: "/guide/" }],
     nav: [
       { text: '首页', link: '/' },
       { text: '技术', link: '/common-links' }
     ],
+    // sidebar: {
+    //   "/guide/": [{ text: "介绍", link: "/guide/" }],
+    // },
 
-    // 侧边栏
+        // 侧边栏
     sidebar: [
       {
         text: '综合',
@@ -57,12 +62,5 @@ export default defineConfig({
       // 本地搜索🔍，是基于浏览器的搜索🔍。
       provider: 'local'
     }
-
-    // 社会化链接🔗
-	/*
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
-	*/
-  }
+  },
 })
